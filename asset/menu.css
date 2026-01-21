@@ -1,0 +1,29 @@
+li{
+    float: left;
+    align-content: space-around;
+    width:100px;
+    color:white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ul{
+    width:700px;
+    height: 100px;
+    background-color: black;
+    padding-top: 50px;
+}
+.headermenu{
+    float: left;
+    align-content: space-around;
+    width:100px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    border:1px solid black;
+    text-align: center;
+}
+#footermenu{
+    background-color: white;
+    width:800px;
+}
