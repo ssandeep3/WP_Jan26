@@ -1,0 +1,16 @@
+p>a{
+    border:1px dashed red;
+}
+img{
+    width:5%;
+}
+/* input [value="hide"]:hover ~ .img{
+    display: none;
+} */
+.img:hover{
+    width:8%;
+}
+/* input[value="hide"]:hover  .img{
+    display: none;
+} */
+ 
