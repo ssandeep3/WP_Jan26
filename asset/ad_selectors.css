@@ -1,16 +1,26 @@
 p>a{
     border:1px dashed red;
 }
+.img{
+    width:15%;
+    float: left;
+    /* position: absolute; */
+    opacity: 0.5;
+}
 img{
-    width:5%;
+    width:15%;
 }
-/* input [value="hide"]:hover ~ .img{
+input:checked + .img{
     display: none;
-} */
-.img:hover{
-    width:8%;
 }
-/* input[value="hide"]:hover  .img{
-    display: none;
-} */
+.one{
+    background-color: red;
+    position: absolute;
+}
+.two{
+    background-color: rgba(0,0,255,0.2);
+    position: absolute;
+
+}
+
  
