@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            width:100px;
+            position: absolute;
+            animation-name: myanimation;
+            animation-duration: 7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myanimation1 {
+            50%{
+                transform: scale(150%);
+            }
+            
+        }
+        @keyframes myanimation{
+            0%{
+                transform: rotate(360deg);
+                left: 0px;
+                bottom: 500px;
+            }
+            25%{
+                left: 200px;
+                bottom: 0%;
+            }
+            50%{
+                left:400px;
+                bottom: 500px;
+            }
+            75%{
+                left: 600px;
+                bottom: 0px;
+            }
+            100%{
+                left: 800px;
+                bottom: 500px;
+            }
+        }
+    </style>
+    <title>Animation Example</title>
+</head>
+<body>
+    <img src="asset/ball.png" alt="">
+</body>
+</html>
