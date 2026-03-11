@@ -1,0 +1,8 @@
+{"timetable":
+    [
+    {"Day":"Monday","Room_no":"227A","time":"9:00"},
+    {"Day":"Tuesday","Room_no":"228A","time":"10:40"},
+    {"Day":"Wednesday","Room_no":"229A","time":"2:00"},
+    {"Day":"Friday","Room_no":"226A","time":"11:30"}
+    ]
+}
